@@ -9,4 +9,8 @@ public class Utility {
 		return new Date();
 	}
 	
+	public void m1() {
+		System.out.println("adding m1() method ---abc");
+	}
+	
 }
