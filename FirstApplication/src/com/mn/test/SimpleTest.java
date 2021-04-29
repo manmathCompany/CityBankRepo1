@@ -4,8 +4,9 @@ public class SimpleTest extends Thread{
 
 	@Override
 	public void run() {
+		System.out.println("run method start");
 		
-		System.out.println("from simple test run method");
+		System.out.println("run method stop");
 	}
 	
 	public static void main(String[] args) {
